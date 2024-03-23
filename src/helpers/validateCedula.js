@@ -1,4 +1,4 @@
-export default async function validarCedula(id) {
+export default async function validateCedula({ id }) {
   const url = `https://api.digital.gob.do/citizens/${id}/validate`;
   const headers = { Accept: "application/json" };
 

@@ -1,18 +1,13 @@
 import validarCedula from "../helpers/validateCedula";
 
 export default function Register() {
-  // const idCedula = "12345678901";
-  // validarCedula(idCedula)
-  //   .then((result) => console.log(result.message))
-  //   .catch((error) => console.error(error.message));
-
   return (
     <div class="h-screen md:flex">
       <div class="relative overflow-hidden md:flex w-1/2 bg-gradient-to-tr from-blue-800 to-purple-700 i justify-around items-center hidden">
         <div>
           <h1 class="text-white font-bold text-4xl font-sans">EasyTicket</h1>
           <p class="text-white mt-1">
-            The most popular peer to peer lending at SEA
+            Tu acceso rápido y seguro al transporte.
           </p>
           <button
             type="submit"
@@ -48,7 +43,7 @@ export default function Register() {
               type="text"
               name=""
               id=""
-              placeholder="Full name"
+              placeholder="Nombre"
             />
           </div>
           <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">

@@ -1,4 +1,3 @@
-// PaymentForm.jsx
 import React, { useState } from "react";
 import CreditCard from "../CreditCard";
 
